@@ -22,7 +22,7 @@ python simple_keylogger.py
 * Stream output remotely or schedule data dumps 
   * Try using sockets or ngrok+flask
 
-###Command line extension activities:
+### Command line extension activities:
 * Run in background using '&' and pipe output to file.
 * Try streaming the output with netcat.
   * Server, Keylogger (ex: 10.2.0.5):
@@ -38,7 +38,7 @@ python simple_keylogger.py
   ```
 Note:  Remote keyboard injection is also possible with the keyboard module.
 
-###Linux Extension Activities
+### Linux Extension Activities
 Explore the /dev/input folder.  Try:
 ```
 ls -al /dev/input/by-id

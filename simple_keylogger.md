@@ -28,17 +28,16 @@ python simple_keylogger.py
   * Server, Keylogger (ex: 10.2.0.5):
   ```
   python3 simple_keylogger.py | nc -lkv 7777
-  ```
-  ```
-  python -m keyboard | nc -lkv 7777
+  python -m keyboard | nc -lkv 7778
   ```
   * Client (ex: 10.2.0.6; or, use a browser):
   ```  
   nc -zv 10.2.0.5 7777
+  nc -zv 10.2.0.5 7778
   ```
 Note:  Remote keyboard injection is also possible with the keyboard module.
 
-### On linux, explore the /dev/input folder.  
+### On Linux, explore the /dev/input folder.  
 Try:
 ```
 ls -al /dev/input/by-id

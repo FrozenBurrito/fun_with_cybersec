@@ -2,6 +2,8 @@
 
 Keyloggers are simple to build in Python with the 'keyboard' module!
 
+<img src="kl_screenshot.png" width="50%" height="50%" />
+
 ## Running from fun_with_cybersec folder
 * First, follow instructions [here](https://github.com/FrozenBurrito/fun_with_cybersec/blob/main/README.md) to setup virtual environment.
 * Running on Linux
@@ -14,7 +16,6 @@ python simple_keylogger.py
 scripts\activate.bat
 python simple_keylogger.py
 ```
-<img src="kl_screenshot.png" width="100%" height="100%" />
 
 ## Extension Activities
 ### Modify simple_keylogger.py

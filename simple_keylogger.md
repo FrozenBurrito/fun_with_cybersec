@@ -1,6 +1,6 @@
 # simple keylogger
 
-Keyloggers are simple to build with the 'keyboard' module!
+Keyloggers are simple to build in Python with the 'keyboard' module!
 
 ## Running from fun_with_cybersec folder
 * First, follow instructions [here](https://github.com/FrozenBurrito/fun_with_cybersec/blob/main/README.md) to setup virtual environment.
@@ -14,7 +14,7 @@ python simple_keylogger.py
 scripts\activate.bat
 python simple_keylogger.py
 ```
-<img src="kl_screenshot.png" width="85%" height="85%" />
+<img src="kl_screenshot.png" width="100%" height="100%" />
 
 ## Extension Activities
 Modify simple_keylogger.py to:
@@ -42,4 +42,4 @@ Note:  Remote keyboard injection is also possible with the keyboard module.
 
 * [keyboard module](https://github.com/boppreh/keyboard)
 * [netcat man page](https://man7.org/linux/man-pages/man1/ncat.1.html)
-* [ncat by nmap](https://nmap.org/ncat/guide/index.html
+* [ncat by nmap](https://nmap.org/ncat/guide/index.html)

@@ -1,5 +1,5 @@
 # fun_with_cybersec
-Work-in-progress (WIP)
+Work-in-progress (WIP) demos and extension activities related to cybersecurity / infosec.
 
 ## Index
 * [simple keylogger](https://github.com/FrozenBurrito/fun_with_cybersec/blob/main/simple_keylogger.md)

@@ -19,9 +19,10 @@ python simple_keylogger.py
 ## Extension Activities
 ### Modify simple_keylogger.py
 * Save the output to file.  
+* Add a keyboard shortcut to turn on/off keylogging.
 * Stream output remotely or schedule data dumps 
   * Try using sockets or ngrok+flask
-
+    
 ### Command line only extension activities
 * Run in background using '&'.
 * Try streaming the output with netcat.
@@ -37,8 +38,7 @@ python simple_keylogger.py
   ```
 * Remote keyboard injection is also possible with the keyboard module.
 * The keyboard module can also be used as a standalone python module (i.e., python -m keyboard).
-* Consider: Can the simple_keylogger.py output be sent to a file using >>?
-  * [Hint](https://stackoverflow.com/questions/51199339/python-script-writes-no-output-when-stdout-is-redirected-to-a-file)
+* Consider: Can the simple_keylogger.py output be sent to a file using >>?  [Hint.](https://stackoverflow.com/questions/51199339/python-script-writes-no-output-when-stdout-is-redirected-to-a-file)
 
 ### On Linux, explore the /dev/input folder.  
 Try:

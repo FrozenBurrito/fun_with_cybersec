@@ -44,7 +44,7 @@ Try:
 ls -al /dev/input/by-id
 sudo cat /dev/input/eventX | hexdump -C
 ```
-How can we unpack the hexdump and determine which keys were pressed?  Hint:  See link below.
+Consider: How can we unpack the hexdump and determine which keys were pressed?  Hint:  See link below.
   
 ## Helpful Libraries and Links
 

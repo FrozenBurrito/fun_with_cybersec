@@ -3,7 +3,7 @@ Cybersec (netsec) examples and activities.
 
 ## Index
 * [simple keylogger and notes](https://github.com/FrozenBurrito/fun_with_cybersec/blob/main/simple_keylogger.md)
-* [icmp_tunnel_keylogger](https://github.com/FrozenBurrito/fun_with_cybersec/blob/main/icmp_tunnel_keylogger.py)
+* [icmp_tunnel_keylogger.py](https://github.com/FrozenBurrito/fun_with_cybersec/blob/main/icmp_tunnel_keylogger.py)
 
 ## Virtual Environment Setup
 ### Linux

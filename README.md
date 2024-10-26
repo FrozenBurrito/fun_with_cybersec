@@ -16,6 +16,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 * Windows
+First, download and install the NMap Project's packet capture library for Windows.
 ```
 git clone https://github.com/FrozenBurrito/fun_with_cybersec.git
 cd fun_with_cybersec

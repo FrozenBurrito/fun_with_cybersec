@@ -1,8 +1,9 @@
-# fun_with_cybersec
-Work-in-progress (WIP) demos and extension activities related to cybersecurity / infosec.
+# sec_sandbox
+Netsec / cybersec examples and activities.
 
 ## Index
-* [simple keylogger](https://github.com/FrozenBurrito/fun_with_cybersec/blob/main/simple_keylogger.md)
+* [simple keylogger and notes](https://github.com/FrozenBurrito/fun_with_cybersec/blob/main/simple_keylogger.md)
+* [icmp_tunnel_keylogger](https://github.com/FrozenBurrito/fun_with_cybersec/blob/main/icmp_tunnel_keylogger.py)
 
 ## Virtual Environment Setup
 * Linux

